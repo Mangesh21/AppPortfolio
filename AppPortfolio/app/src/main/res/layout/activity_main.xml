@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="appportfolio.mk.com.appportfolio.MainActivity">
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_circular_corner"
+        android:text="@string/inventoryapp"
+        android:textColor="@color/colortext"
+        android:id="@+id/btnInventoryApp"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_circular_corner"
+        android:text="@string/msrtctimetable"
+        android:textColor="@color/colortext"
+        android:id="@+id/btntimetable"
+        android:layout_below="@+id/btnInventoryApp"
+        android:layout_marginTop="41dp"
+        android:layout_alignLeft="@+id/btnInventoryApp"
+        android:layout_alignStart="@+id/btnInventoryApp"
+        android:layout_alignRight="@+id/btnInventoryApp"
+        android:layout_alignEnd="@+id/btnInventoryApp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_circular_corner"
+        android:text="@string/shoppingapp"
+        android:textColor="@color/colortext"
+        android:id="@+id/btnshoppingapp"
+        android:layout_below="@+id/btntimetable"
+        android:layout_marginTop="41dp"
+        android:layout_alignLeft="@+id/btntimetable"
+        android:layout_alignStart="@+id/btntimetable"
+        android:layout_alignRight="@+id/btntimetable"
+        android:layout_alignEnd="@+id/btntimetable" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_circular_corner"
+        android:text="@string/taxibooking"
+        android:textColor="@color/colortext"
+        android:id="@+id/btntaxibooking"
+        android:layout_marginTop="41dp"
+        android:layout_below="@+id/btnshoppingapp"
+        android:layout_alignLeft="@+id/btnshoppingapp"
+        android:layout_alignStart="@+id/btnshoppingapp"
+        android:layout_alignRight="@+id/btnshoppingapp"
+        android:layout_alignEnd="@+id/btnshoppingapp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_circular_corner"
+        android:text="@string/socialissues"
+        android:textColor="@color/colortext"
+        android:id="@+id/btnsocialissues"
+        android:layout_below="@+id/btntaxibooking"
+        android:layout_alignLeft="@+id/btntaxibooking"
+        android:layout_alignStart="@+id/btntaxibooking"
+        android:layout_marginTop="41dp"
+        android:layout_alignRight="@+id/btntaxibooking"
+        android:layout_alignEnd="@+id/btntaxibooking" />
+</RelativeLayout>
