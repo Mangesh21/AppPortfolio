@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Naondegree Apps</string>
+    <string name="inventoryapp">Milk Products App</string>
+    <string name="msrtctimetable">Time Table App</string>
+    <string name="shoppingapp"> Shopping App</string>
+    <string name="taxibooking">Taxi Booking App</string>
+    <string name="socialissues">Social Issues App</string>
+</resources>
